@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title and Description -->
+    <title>Dentist Sachse, TX | Wiese Dental</title>
+    <meta name="description" content="Visit the dedicated dentist in Sachse, TX and the experienced dentistry team at Wiese Dental for smile transforming dentistry solutions that deliver healthy, beautiful smiles." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Dentist Sachse, TX | Wiese Dental" />
+    <meta property="og:description" content="Visit the dedicated dentist in Sachse, TX and the experienced dentistry team at Wiese Dental for smile transforming dentistry solutions that deliver healthy, beautiful smiles." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.png" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dentist Sachse, TX | Wiese Dental" />
+    <meta name="twitter:description" content="Visit the dedicated dentist in Sachse, TX and the experienced dentistry team at Wiese Dental for smile transforming dentistry solutions." />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    
+    <!-- Preconnect to external resources for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Default font - can be customized per project -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    
+    <!-- Theme color for mobile browsers -->
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    <!-- Root element for React app -->
+    <div id="root"></div>
+    
+    <!-- Main entry point -->
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Suppress Vite error overlay during vibe coding edits -->
+    <script>
+      window.addEventListener('message', function(event) {
+        if (event.data && event.data.type === 'HIDE_VITE_ERROR_OVERLAY') {
+          var style = document.getElementById('lps-hide-vite-overlay');
+          if (!style) {
+            style = document.createElement('style');
+            style.id = 'lps-hide-vite-overlay';
+            document.head.appendChild(style);
+          }
+          style.textContent = 'vite-error-overlay { display: none !important; }';
+        } else if (event.data && event.data.type === 'SHOW_VITE_ERROR_OVERLAY') {
+          var el = document.getElementById('lps-hide-vite-overlay');
+          if (el) el.remove();
+        }
+      });
+    </script>
+
+    <!-- Noscript fallback for SEO crawlers and users without JS -->
+    <noscript>
+      <div style="padding: 2rem; text-align: center; font-family: system-ui, sans-serif;">
+        <h1>JavaScript Required</h1>
+        <p>This website requires JavaScript to function properly. Please enable JavaScript in your browser settings.</p>
+      </div>
+    </noscript>
+  </body>
+</html>

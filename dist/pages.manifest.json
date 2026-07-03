@@ -1,0 +1,762 @@
+{
+  "$schema": "./pages.manifest.schema.json",
+  "site": {
+    "name": "Wiese Dental",
+    "type": "website",
+    "domain": "https://d67505e8-d1c8-49f6-b7a0-ac99d4b78617.preview.builder.searchatlas.com",
+    "language": "en",
+    "defaultSeo": {
+      "titleTemplate": "%s | Wiese Dental",
+      "ogImage": "/og-default.png"
+    },
+    "generator": "lps-website-builder",
+    "manifestSchemaVersion": 1,
+    "lpsProjectId": "d67505e8-d1c8-49f6-b7a0-ac99d4b78617",
+    "lpsSignature": "8cf3fb31539bbe88924fa576cb536fa7f15d4b9a1cdd0014e28afeefba886f49"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "name": "Home",
+      "slug": "",
+      "isHome": true,
+      "seo": {
+        "title": "Dentist Sachse, TX | Wiese Dental",
+        "description": "Visit the dedicated dentist in Sachse, TX and the experienced dentistry team at Wiese Dental for smile transforming dentistry solutions that deliver healthy, beautiful smiles.",
+        "keywords": [
+          "dentist Sachse TX",
+          "Wiese Dental",
+          "dental care Sachse",
+          "family dentistry",
+          "cosmetic dentistry"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "LocalBusiness",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "Hero",
+        "Meet",
+        "Testimonials",
+        "Team",
+        "FirstVisit",
+        "Services",
+        "Insurance",
+        "Location",
+        "Footer"
+      ],
+      "inNavigation": true,
+      "hasBlogSection": false
+    },
+    {
+      "id": "location",
+      "name": "Service Locations / Service Area",
+      "slug": "service-locations",
+      "isHome": false,
+      "seo": {
+        "title": "Service Locations & Service Area | Wiese Dental \u2013 Sachse, TX",
+        "description": "Wiese Dental proudly serves patients from Sachse, Garland, Rowlett, Murphy, Wylie, and surrounding communities in the Dallas\u2013Fort Worth area. Find your nearest service area.",
+        "keywords": [
+          "Wiese Dental service area",
+          "dentist near me TX",
+          "dental office Sachse TX",
+          "dentist Garland TX",
+          "dentist Rowlett TX",
+          "dentist Murphy TX",
+          "dentist Wylie TX"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "LocalBusiness",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "Location",
+        "Contact",
+        "Footer"
+      ],
+      "inNavigation": true,
+      "hasBlogSection": false
+    },
+    {
+      "id": "dentist-sachse-tx",
+      "name": "Dentist in Sachse, TX",
+      "slug": "dentist-sachse-tx",
+      "isHome": false,
+      "seo": {
+        "title": "Dentist in Sachse, TX | Wiese Dental",
+        "description": "Looking for a trusted dentist in Sachse, TX? Wiese Dental offers comprehensive family and cosmetic dental care right in your community. Call (972) 414-7195.",
+        "keywords": [
+          "dentist Sachse TX",
+          "family dentist Sachse",
+          "dental care Sachse Texas",
+          "Wiese Dental Sachse"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "LocalBusiness",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "Contact",
+        "Footer"
+      ],
+      "inNavigation": false,
+      "hasBlogSection": false
+    },
+    {
+      "id": "dentist-garland-tx",
+      "name": "Dentist Serving Garland, TX",
+      "slug": "dentist-garland-tx",
+      "isHome": false,
+      "seo": {
+        "title": "Dentist Serving Garland, TX | Wiese Dental",
+        "description": "Wiese Dental serves patients from Garland, TX with expert family and cosmetic dentistry. Our Sachse office is just minutes away from Firewheel, Duck Creek, and all Garland neighborhoods. Call (972) 414-7195.",
+        "keywords": [
+          "dentist Garland TX",
+          "family dentist near Garland",
+          "dental care Garland Texas",
+          "Wiese Dental Garland",
+          "dentist near Firewheel",
+          "dentist near Lake Ray Hubbard"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "LocalBusiness",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "Contact",
+        "Footer"
+      ],
+      "inNavigation": false,
+      "hasBlogSection": false
+    },
+    {
+      "id": "dentist-rowlett-tx",
+      "name": "Dentist Serving Rowlett, TX",
+      "slug": "dentist-rowlett-tx",
+      "isHome": false,
+      "seo": {
+        "title": "Dentist Serving Rowlett, TX | Wiese Dental",
+        "description": "Wiese Dental welcomes patients from Rowlett, TX. Experience quality family and cosmetic dental care at our conveniently located Sachse office. Call (972) 414-7195.",
+        "keywords": [
+          "dentist Rowlett TX",
+          "family dentist near Rowlett",
+          "dental care Rowlett Texas",
+          "Wiese Dental Rowlett"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "LocalBusiness",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "Contact",
+        "Footer"
+      ],
+      "inNavigation": false,
+      "hasBlogSection": false
+    },
+    {
+      "id": "dentist-murphy-tx",
+      "name": "Dentist Serving Murphy, TX",
+      "slug": "dentist-murphy-tx",
+      "isHome": false,
+      "seo": {
+        "title": "Dentist Serving Murphy, TX | Wiese Dental",
+        "description": "Serving patients from Murphy, TX at our Sachse dental office. Wiese Dental provides comprehensive family and cosmetic dentistry for the entire community. Call (972) 414-7195.",
+        "keywords": [
+          "dentist Murphy TX",
+          "family dentist near Murphy",
+          "dental care Murphy Texas",
+          "Wiese Dental Murphy"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "LocalBusiness",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "Contact",
+        "Footer"
+      ],
+      "inNavigation": false,
+      "hasBlogSection": false
+    },
+    {
+      "id": "dentist-wylie-tx",
+      "name": "Dentist Serving Wylie, TX",
+      "slug": "dentist-wylie-tx",
+      "isHome": false,
+      "seo": {
+        "title": "Dentist Serving Wylie, TX | Wiese Dental",
+        "description": "Patients from Wylie, TX trust Wiese Dental for exceptional family and cosmetic dental care. Visit our nearby Sachse office today. Call (972) 414-7195.",
+        "keywords": [
+          "dentist Wylie TX",
+          "family dentist near Wylie",
+          "dental care Wylie Texas",
+          "Wiese Dental Wylie"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "LocalBusiness",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "Contact",
+        "Footer"
+      ],
+      "inNavigation": false,
+      "hasBlogSection": false
+    },
+    {
+      "id": "dentist-plano-tx",
+      "name": "Dentist Serving Plano, TX",
+      "slug": "dentist-plano-tx",
+      "isHome": false,
+      "seo": {
+        "title": "Dentist Serving Plano, TX | Wiese Dental",
+        "description": "Wiese Dental serves patients from Plano, TX with expert family and cosmetic dentistry. Our Sachse office is just minutes east of Plano. Call (972) 414-7195.",
+        "keywords": [
+          "dentist Plano TX",
+          "family dentist near Plano",
+          "dental care Plano Texas",
+          "Wiese Dental Plano",
+          "dentist near Legacy West",
+          "dentist east Plano"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "LocalBusiness",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "Contact",
+        "Footer"
+      ],
+      "inNavigation": false,
+      "hasBlogSection": false
+    },
+    {
+      "id": "dentist-richardson-tx",
+      "name": "Dentist Serving Richardson, TX",
+      "slug": "dentist-richardson-tx",
+      "isHome": false,
+      "seo": {
+        "title": "Dentist Serving Richardson, TX | Wiese Dental",
+        "description": "Wiese Dental welcomes patients from Richardson, TX for comprehensive family and cosmetic dental care at our convenient Sachse office. Call (972) 414-7195.",
+        "keywords": [
+          "dentist Richardson TX",
+          "family dentist near Richardson",
+          "dental care Richardson Texas",
+          "Wiese Dental Richardson",
+          "dentist near UTD",
+          "dentist Telecom Corridor"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "LocalBusiness",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "Contact",
+        "Footer"
+      ],
+      "inNavigation": false,
+      "hasBlogSection": false
+    },
+    {
+      "id": "dentist-allen-tx",
+      "name": "Dentist Serving Allen, TX",
+      "slug": "dentist-allen-tx",
+      "isHome": false,
+      "seo": {
+        "title": "Dentist Serving Allen, TX | Wiese Dental",
+        "description": "Allen, TX families trust Wiese Dental for exceptional family and cosmetic dentistry. Our Sachse office is just minutes south of Allen. Call (972) 414-7195.",
+        "keywords": [
+          "dentist Allen TX",
+          "family dentist near Allen",
+          "dental care Allen Texas",
+          "Wiese Dental Allen",
+          "dentist near Allen Premium Outlets",
+          "dentist Watters Creek Allen"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "LocalBusiness",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "Contact",
+        "Footer"
+      ],
+      "inNavigation": false,
+      "hasBlogSection": false
+    },
+    {
+      "id": "dentist-lucas-tx",
+      "name": "Dentist Serving Lucas, TX",
+      "slug": "dentist-lucas-tx",
+      "isHome": false,
+      "seo": {
+        "title": "Dentist Serving Lucas, TX | Wiese Dental",
+        "description": "Lucas, TX residents are right next door to Wiese Dental's Sachse office. Get comprehensive family and cosmetic dental care just minutes away. Call (972) 414-7195.",
+        "keywords": [
+          "dentist Lucas TX",
+          "family dentist near Lucas",
+          "dental care Lucas Texas",
+          "Wiese Dental Lucas",
+          "dentist near Stinson Farms",
+          "dentist FM 2551 Lucas"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "LocalBusiness",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "Contact",
+        "Footer"
+      ],
+      "inNavigation": false,
+      "hasBlogSection": false
+    },
+    {
+      "id": "dentist-parker-tx",
+      "name": "Dentist Serving Parker, TX",
+      "slug": "dentist-parker-tx",
+      "isHome": false,
+      "seo": {
+        "title": "Dentist Serving Parker, TX | Wiese Dental",
+        "description": "Parker, TX families choose Wiese Dental for personalized family and cosmetic dental care at our nearby Sachse office. Call (972) 414-7195.",
+        "keywords": [
+          "dentist Parker TX",
+          "family dentist near Parker",
+          "dental care Parker Texas",
+          "Wiese Dental Parker",
+          "dentist Collin County",
+          "dentist FM 2551 Parker TX"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "LocalBusiness",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "Contact",
+        "Footer"
+      ],
+      "inNavigation": false,
+      "hasBlogSection": false
+    },
+    {
+      "id": "for-patients",
+      "name": "For Patients",
+      "slug": "for-patients",
+      "isHome": false,
+      "seo": {
+        "title": "For Patients | Wiese Dental \u2013 Sachse, TX",
+        "description": "Find patient resources at Wiese Dental in Sachse, TX \u2014 including first visit information, insurance & payment options, and answers to frequently asked questions.",
+        "keywords": [
+          "dental patient resources",
+          "first dental visit Sachse TX",
+          "dental insurance Sachse",
+          "new patient dentist Sachse",
+          "Wiese Dental patient info",
+          "dental FAQ Sachse TX"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "LocalBusiness",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "ForPatientsHero",
+        "FirstVisit",
+        "Insurance",
+        "FAQ",
+        "Contact",
+        "Footer"
+      ],
+      "inNavigation": true,
+      "hasBlogSection": false
+    },
+    {
+      "id": "our-services",
+      "name": "Our Services",
+      "slug": "our-services",
+      "isHome": false,
+      "seo": {
+        "title": "Our Dental Services | Wiese Dental \u2013 Sachse, TX",
+        "description": "Explore the full range of dental services at Wiese Dental in Sachse, TX \u2014 from checkups and cleanings to dental implants, veneers, Invisalign, and emergency care. Find the right solution for you.",
+        "keywords": [
+          "dental services Sachse TX",
+          "checkup and cleaning",
+          "dental implants Sachse",
+          "veneers Sachse TX",
+          "Invisalign Sachse",
+          "emergency dentist Sachse",
+          "gum disease treatment",
+          "dental crowns Sachse",
+          "cosmetic dentistry Sachse",
+          "Wiese Dental services"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "LocalBusiness",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "OurServicesHero",
+        "OurServicesContent",
+        "Contact",
+        "Footer"
+      ],
+      "inNavigation": true,
+      "hasBlogSection": false
+    },
+    {
+      "id": "about-us",
+      "name": "About Us",
+      "slug": "about-us",
+      "isHome": false,
+      "seo": {
+        "title": "About Us | Wiese Dental \u2013 Sachse, TX",
+        "description": "Learn about Dr. Robert G. Wiese and the Wiese Dental team. For over four decades we've served families in Sachse, TX with honest, compassionate dental care built on lasting relationships.",
+        "keywords": [
+          "about Wiese Dental",
+          "Dr. Robert Wiese",
+          "Sachse TX dentist",
+          "family dentistry Sachse",
+          "dental team Sachse TX",
+          "about us dental office"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "LocalBusiness",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "AboutUsHero",
+        "Meet",
+        "Team",
+        "Testimonials",
+        "Contact",
+        "Footer"
+      ],
+      "inNavigation": true,
+      "hasBlogSection": false
+    },
+    {
+      "id": "request-an-appointment",
+      "name": "Request an Appointment",
+      "slug": "request-an-appointment",
+      "isHome": false,
+      "seo": {
+        "title": "Request an Appointment | Wiese Dental \u2013 Sachse, TX",
+        "description": "Request a dental appointment at Wiese Dental in Sachse, TX. Fill out our quick form and our team will confirm your visit within one business day. Call (972) 414-7195.",
+        "keywords": [
+          "request appointment dentist Sachse TX",
+          "book dental appointment Sachse",
+          "Wiese Dental appointment",
+          "dental appointment Sachse TX",
+          "schedule dentist Sachse"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "LocalBusiness",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "AppointmentHero",
+        "AppointmentForm",
+        "Footer"
+      ],
+      "inNavigation": false,
+      "hasBlogSection": false
+    },
+    {
+      "id": "smile-gallery",
+      "name": "Smile Gallery",
+      "slug": "smile-gallery",
+      "isHome": false,
+      "seo": {
+        "title": "Smile Gallery | Wiese Dental \u2013 Sachse, TX",
+        "description": "View real patient smile transformations at Wiese Dental in Sachse, TX. See the beautiful results our team has achieved with cosmetic and restorative dentistry.",
+        "keywords": [
+          "smile gallery",
+          "dental before and after",
+          "cosmetic dentistry results",
+          "Wiese Dental smile transformations",
+          "patient smiles Sachse TX"
+        ],
+        "ogImage": "",
+        "canonicalUrl": "",
+        "noindex": false,
+        "structuredDataType": "LocalBusiness",
+        "structuredData": null
+      },
+      "sections": [
+        "Header",
+        "SmileGallery",
+        "Footer"
+      ],
+      "inNavigation": true,
+      "hasBlogSection": false
+    }
+  ],
+  "navigation": {
+    "header": [
+      "home",
+      "about-us",
+      "our-services",
+      "for-patients",
+      "smile-gallery",
+      "location"
+    ],
+    "footer": [
+      "home",
+      "about-us",
+      "our-services",
+      "for-patients",
+      "smile-gallery",
+      "location"
+    ]
+  },
+  "sections": {
+    "Header": {
+      "file": "src/components/sections/Header.tsx",
+      "description": "Site header with navigation and branding",
+      "usedOn": [
+        "home",
+        "about-us",
+        "our-services",
+        "for-patients",
+        "location",
+        "dentist-sachse-tx",
+        "dentist-garland-tx",
+        "dentist-rowlett-tx",
+        "dentist-murphy-tx",
+        "dentist-wylie-tx",
+        "dentist-plano-tx",
+        "dentist-richardson-tx",
+        "dentist-allen-tx",
+        "dentist-lucas-tx",
+        "dentist-parker-tx",
+        "smile-gallery",
+        "request-an-appointment"
+      ]
+    },
+    "Hero": {
+      "file": "src/components/sections/Hero.tsx",
+      "description": "Hero section with main value proposition",
+      "usedOn": [
+        "home"
+      ]
+    },
+    "Meet": {
+      "file": "src/components/sections/Meet.tsx",
+      "description": "Meet the dentist section",
+      "usedOn": [
+        "home"
+      ]
+    },
+    "Partners": {
+      "file": "src/components/sections/Partners.tsx",
+      "description": "Partner organizations and certifications",
+      "usedOn": [
+        "home"
+      ]
+    },
+    "Testimonials": {
+      "file": "src/components/sections/Testimonials.tsx",
+      "description": "Patient testimonials and reviews",
+      "usedOn": [
+        "home"
+      ]
+    },
+    "Team": {
+      "file": "src/components/sections/Team.tsx",
+      "description": "Dental team members",
+      "usedOn": [
+        "home"
+      ]
+    },
+    "FirstVisit": {
+      "file": "src/components/sections/FirstVisit.tsx",
+      "description": "First visit information",
+      "usedOn": [
+        "home",
+        "for-patients"
+      ]
+    },
+    "Services": {
+      "file": "src/components/sections/Services.tsx",
+      "description": "Dental services offered",
+      "usedOn": [
+        "home"
+      ]
+    },
+    "Insurance": {
+      "file": "src/components/sections/Insurance.tsx",
+      "description": "Insurance and payment information",
+      "usedOn": [
+        "home",
+        "for-patients"
+      ]
+    },
+    "FAQ": {
+      "file": "src/components/sections/FAQ.tsx",
+      "description": "Frequently asked questions",
+      "usedOn": [
+        "home",
+        "for-patients"
+      ]
+    },
+    "Location": {
+      "file": "src/components/sections/Location.tsx",
+      "description": "Office location and hours",
+      "usedOn": [
+        "home",
+        "location"
+      ]
+    },
+    "Contact": {
+      "file": "src/components/sections/Contact.tsx",
+      "description": "Contact form and information",
+      "usedOn": [
+        "home",
+        "for-patients",
+        "location",
+        "dentist-sachse-tx",
+        "dentist-garland-tx",
+        "dentist-rowlett-tx",
+        "dentist-murphy-tx",
+        "dentist-wylie-tx",
+        "dentist-plano-tx",
+        "dentist-richardson-tx",
+        "dentist-allen-tx",
+        "dentist-lucas-tx",
+        "dentist-parker-tx"
+      ]
+    },
+    "Footer": {
+      "file": "src/components/sections/Footer.tsx",
+      "description": "Site footer with links and information",
+      "usedOn": [
+        "home",
+        "for-patients",
+        "location",
+        "dentist-sachse-tx",
+        "dentist-garland-tx",
+        "dentist-rowlett-tx",
+        "dentist-murphy-tx",
+        "dentist-wylie-tx",
+        "dentist-plano-tx",
+        "dentist-richardson-tx",
+        "dentist-allen-tx",
+        "dentist-lucas-tx",
+        "dentist-parker-tx",
+        "smile-gallery",
+        "request-an-appointment"
+      ]
+    },
+    "AboutUsHero": {
+      "file": "src/components/sections/AboutUsHero.tsx",
+      "description": "Hero banner for the About Us page with gradient background and CTA buttons",
+      "usedOn": [
+        "about-us"
+      ]
+    },
+    "ForPatientsHero": {
+      "file": "src/components/sections/ForPatientsHero.tsx",
+      "description": "Hero banner for the For Patients page with gradient background and CTA buttons",
+      "usedOn": [
+        "for-patients"
+      ]
+    },
+    "OurServicesHero": {
+      "file": "src/components/sections/OurServicesHero.tsx",
+      "description": "Hero banner for the Our Services page with gradient background and CTA buttons",
+      "usedOn": [
+        "our-services"
+      ]
+    },
+    "OurServicesContent": {
+      "file": "src/components/sections/OurServicesContent.tsx",
+      "description": "Full services list with category accordion items, nested sub-service accordions, and bottom CTA banner",
+      "usedOn": [
+        "our-services"
+      ]
+    },
+    "SmileGallery": {
+      "file": "src/pages/SmileGallery.tsx",
+      "description": "Patient smile photo gallery with responsive grid and appointment CTA",
+      "usedOn": [
+        "smile-gallery"
+      ]
+    },
+    "AppointmentHero": {
+      "file": "src/components/sections/AppointmentHero.tsx",
+      "description": "Hero banner for the Request an Appointment page with gradient background and contact details",
+      "usedOn": [
+        "request-an-appointment"
+      ]
+    },
+    "AppointmentForm": {
+      "file": "src/components/sections/AppointmentForm.tsx",
+      "description": "Full appointment request form with patient info, reason for visit, and scheduling preferences",
+      "usedOn": [
+        "request-an-appointment"
+      ]
+    }
+  },
+  "layout": {
+    "header": {
+      "file": "src/components/layout/Header.tsx",
+      "description": "Site header with logo and navigation links"
+    },
+    "footer": {
+      "file": "src/components/layout/Footer.tsx",
+      "description": "Site footer with links and copyright"
+    },
+    "pageLayout": {
+      "file": "src/components/layout/PageLayout.tsx",
+      "description": "Wrapper component that includes Header and Footer"
+    }
+  }
+}
