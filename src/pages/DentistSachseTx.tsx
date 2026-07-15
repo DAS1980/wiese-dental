@@ -315,6 +315,38 @@ const DentistSachseTxPage = React.forwardRef<HTMLDivElement>((props, ref) => {
                 Familiar with these Sachse spots? Then you already know how to get to us.
               </p>
             </div>
+
+            {/* Michael J. Felix Community Center Feature */}
+            <div className="mb-10 rounded-2xl overflow-hidden border border-border grid grid-cols-1 md:grid-cols-2 shadow-sm">
+              <div className="relative overflow-hidden">
+                <img
+                  src="https://media.cdn.builder.searchatlas.com/user-uploads/e1a03122-b43d-4722-ae9c-cfe8adadc7f0_Michael_J._Felix_Community_Center.png"
+                  alt="Michael J. Felix Community Center in Sachse, TX"
+                  className="w-full h-full object-cover min-h-[260px]"
+                />
+              </div>
+              <div className="bg-[hsl(30_25%_97%)] p-8 flex flex-col justify-center">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[hsl(184_82%_40%)]/10">
+                    <Navigation className="h-5 w-5 text-[hsl(184_82%_40%)]" />
+                  </div>
+                  <p className="text-sm font-semibold uppercase tracking-widest text-[hsl(184_82%_40%)]">
+                    Community Landmark
+                  </p>
+                </div>
+                <h3 className="text-2xl font-bold text-foreground font-serif mb-3">
+                  Michael J. Felix Community Center
+                </h3>
+                <p className="text-foreground/70 leading-relaxed">
+                  The Michael J. Felix Community Center is one of Sachse's most beloved gathering
+                  places — home to city events, recreational programs, and community milestones.
+                  If you know this landmark, you're already close to us. Wiese Dental is just
+                  a short drive away on Murphy Rd, making it easy to combine your community
+                  activities with a dental visit.
+                </p>
+              </div>
+            </div>
+
             <div className="space-y-4">
               {landmarks.map((l) => (
                 <div

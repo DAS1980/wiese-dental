@@ -3,7 +3,7 @@
   "site": {
     "name": "Wiese Dental",
     "type": "website",
-    "domain": "https://d67505e8-d1c8-49f6-b7a0-ac99d4b78617.preview.builder.searchatlas.com",
+    "domain": "https://wiesedental.com",
     "language": "en",
     "defaultSeo": {
       "titleTemplate": "%s | Wiese Dental",
@@ -12,7 +12,7 @@
     "generator": "lps-website-builder",
     "manifestSchemaVersion": 1,
     "lpsProjectId": "d67505e8-d1c8-49f6-b7a0-ac99d4b78617",
-    "lpsSignature": "8cf3fb31539bbe88924fa576cb536fa7f15d4b9a1cdd0014e28afeefba886f49"
+    "lpsSignature": "6d83b2ef6a51f34cc0195bb80bedcd9f67e4ea8a657394d2518e054498d22390"
   },
   "pages": [
     {

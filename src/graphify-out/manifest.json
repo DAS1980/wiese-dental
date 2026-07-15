@@ -1,0 +1,567 @@
+{
+  "App.tsx": {
+    "mtime": 1784122187.2431126,
+    "ast_hash": "57f3803290747d2d78b55a75dc5cb25f",
+    "semantic_hash": "57f3803290747d2d78b55a75dc5cb25f"
+  },
+  "components/NavLink.tsx": {
+    "mtime": 1784122187.2441127,
+    "ast_hash": "8f7c178b4776787e58e1011855ca28f6",
+    "semantic_hash": "8f7c178b4776787e58e1011855ca28f6"
+  },
+  "components/SectionErrorBoundary.tsx": {
+    "mtime": 1784122187.2441127,
+    "ast_hash": "5a22a6ef14850d89fcbb788b64e451c3",
+    "semantic_hash": "5a22a6ef14850d89fcbb788b64e451c3"
+  },
+  "components/SectionLink.tsx": {
+    "mtime": 1784122187.2441127,
+    "ast_hash": "5f783963e36680e0d0602d180577b4ed",
+    "semantic_hash": "5f783963e36680e0d0602d180577b4ed"
+  },
+  "components/layout/PageLayout.tsx": {
+    "mtime": 1784122187.2441127,
+    "ast_hash": "a3344de34a98fc9a53a987d245c1a3aa",
+    "semantic_hash": "a3344de34a98fc9a53a987d245c1a3aa"
+  },
+  "components/sections/AboutUsHero.tsx": {
+    "mtime": 1784122187.2441127,
+    "ast_hash": "7b427fdd17bec21a1bcdf3bb141fe365",
+    "semantic_hash": "7b427fdd17bec21a1bcdf3bb141fe365"
+  },
+  "components/sections/AboutUsSections.tsx": {
+    "mtime": 1784122187.2441127,
+    "ast_hash": "9b11a1d82dcd26ae3b035142f0d9bd46",
+    "semantic_hash": "9b11a1d82dcd26ae3b035142f0d9bd46"
+  },
+  "components/sections/AppointmentForm.tsx": {
+    "mtime": 1784122187.2451127,
+    "ast_hash": "95371d3c066a041d74ffcc066805af9d",
+    "semantic_hash": "95371d3c066a041d74ffcc066805af9d"
+  },
+  "components/sections/AppointmentHero.tsx": {
+    "mtime": 1784122187.2451127,
+    "ast_hash": "2bfe520096ad19332b6c94348edaf8e9",
+    "semantic_hash": "2bfe520096ad19332b6c94348edaf8e9"
+  },
+  "components/sections/Contact.tsx": {
+    "mtime": 1784122187.2451127,
+    "ast_hash": "ab86d94c12619fd1322de4d189b8ff55",
+    "semantic_hash": "ab86d94c12619fd1322de4d189b8ff55"
+  },
+  "components/sections/DentalTeam.tsx": {
+    "mtime": 1784122187.2451127,
+    "ast_hash": "2a809d0681db881ca455705a133ef5a5",
+    "semantic_hash": "2a809d0681db881ca455705a133ef5a5"
+  },
+  "components/sections/FAQ.tsx": {
+    "mtime": 1784122187.2451127,
+    "ast_hash": "0d641dc4c2d17600f96f38ed57bfe254",
+    "semantic_hash": "0d641dc4c2d17600f96f38ed57bfe254"
+  },
+  "components/sections/FinancialPolicy.tsx": {
+    "mtime": 1784122187.2461126,
+    "ast_hash": "c1b3bc63f1027b4cb067ef0b03c9ed43",
+    "semantic_hash": "c1b3bc63f1027b4cb067ef0b03c9ed43"
+  },
+  "components/sections/FirstVisit.tsx": {
+    "mtime": 1784122187.2461126,
+    "ast_hash": "da471c8f42ac51232338c24884cde37d",
+    "semantic_hash": "da471c8f42ac51232338c24884cde37d"
+  },
+  "components/sections/Footer.tsx": {
+    "mtime": 1784122187.2461126,
+    "ast_hash": "64c355558ab8cd943e891c5b8a6850a4",
+    "semantic_hash": "64c355558ab8cd943e891c5b8a6850a4"
+  },
+  "components/sections/ForPatientsHero.tsx": {
+    "mtime": 1784122187.2461126,
+    "ast_hash": "191c128e4c0f5c6fea74cd863164b30c",
+    "semantic_hash": "191c128e4c0f5c6fea74cd863164b30c"
+  },
+  "components/sections/Header.tsx": {
+    "mtime": 1784122187.2461126,
+    "ast_hash": "67bd50080927dcf398ee78bf75d4dda4",
+    "semantic_hash": "67bd50080927dcf398ee78bf75d4dda4"
+  },
+  "components/sections/Hero.tsx": {
+    "mtime": 1784122187.2461126,
+    "ast_hash": "b391013ecbb9af3450da303a3ea208dd",
+    "semantic_hash": "b391013ecbb9af3450da303a3ea208dd"
+  },
+  "components/sections/Insurance.tsx": {
+    "mtime": 1784122187.2461126,
+    "ast_hash": "c4d6c6570818c5426797fb98a9eaacd6",
+    "semantic_hash": "c4d6c6570818c5426797fb98a9eaacd6"
+  },
+  "components/sections/Location.tsx": {
+    "mtime": 1784122187.2471128,
+    "ast_hash": "05abc68d1964e3049d42ced7aa25c5cd",
+    "semantic_hash": "05abc68d1964e3049d42ced7aa25c5cd"
+  },
+  "components/sections/Meet.tsx": {
+    "mtime": 1784122187.2471128,
+    "ast_hash": "1898dee9fc42eabba0f4a739a05b6b80",
+    "semantic_hash": "1898dee9fc42eabba0f4a739a05b6b80"
+  },
+  "components/sections/OurServicesContent.tsx": {
+    "mtime": 1784122187.2471128,
+    "ast_hash": "4e6f6940c0e75604801c113592778588",
+    "semantic_hash": "4e6f6940c0e75604801c113592778588"
+  },
+  "components/sections/OurServicesHero.tsx": {
+    "mtime": 1784122187.2471128,
+    "ast_hash": "08e26507dab8757fc077c511ebf6d962",
+    "semantic_hash": "08e26507dab8757fc077c511ebf6d962"
+  },
+  "components/sections/PatientEducation.tsx": {
+    "mtime": 1784122187.2471128,
+    "ast_hash": "b3a761bd3d26e0d32558c2eccaaf424e",
+    "semantic_hash": "b3a761bd3d26e0d32558c2eccaaf424e"
+  },
+  "components/sections/PatientForms.tsx": {
+    "mtime": 1784122187.2471128,
+    "ast_hash": "481bf344effeb7fef1bee71e439b4e60",
+    "semantic_hash": "481bf344effeb7fef1bee71e439b4e60"
+  },
+  "components/sections/PatientsCTA.tsx": {
+    "mtime": 1784122187.2481127,
+    "ast_hash": "b046c39807fb1551358822a954156727",
+    "semantic_hash": "b046c39807fb1551358822a954156727"
+  },
+  "components/sections/Services.tsx": {
+    "mtime": 1784122187.2481127,
+    "ast_hash": "52c0b9ab49a8895d42c8608f808d75c6",
+    "semantic_hash": "52c0b9ab49a8895d42c8608f808d75c6"
+  },
+  "components/sections/Team.tsx": {
+    "mtime": 1784122187.2481127,
+    "ast_hash": "3a6eaa9d2cbc5bc8a9de8391aa79f8ac",
+    "semantic_hash": "3a6eaa9d2cbc5bc8a9de8391aa79f8ac"
+  },
+  "components/sections/Testimonials.tsx": {
+    "mtime": 1784122187.2481127,
+    "ast_hash": "dc9c3c70efe5a72d982a7e4547456ca1",
+    "semantic_hash": "dc9c3c70efe5a72d982a7e4547456ca1"
+  },
+  "components/ui/accordion.tsx": {
+    "mtime": 1784122187.2481127,
+    "ast_hash": "f9ebb6ee913b44e5f3e06fe1d9679784",
+    "semantic_hash": "f9ebb6ee913b44e5f3e06fe1d9679784"
+  },
+  "components/ui/alert-dialog.tsx": {
+    "mtime": 1784122187.2481127,
+    "ast_hash": "2ee6c5e5e070315114319bc060d17a52",
+    "semantic_hash": "2ee6c5e5e070315114319bc060d17a52"
+  },
+  "components/ui/alert.tsx": {
+    "mtime": 1784122187.2491126,
+    "ast_hash": "354d0206f924d48bcebbb023c3940a6b",
+    "semantic_hash": "354d0206f924d48bcebbb023c3940a6b"
+  },
+  "components/ui/aspect-ratio.tsx": {
+    "mtime": 1784122187.2491126,
+    "ast_hash": "c5c364545e1b25a94e9e752cd67ad048",
+    "semantic_hash": "c5c364545e1b25a94e9e752cd67ad048"
+  },
+  "components/ui/avatar.tsx": {
+    "mtime": 1784122187.2491126,
+    "ast_hash": "53921dca0903c74cd72fada89388d9f8",
+    "semantic_hash": "53921dca0903c74cd72fada89388d9f8"
+  },
+  "components/ui/badge.tsx": {
+    "mtime": 1784122187.2491126,
+    "ast_hash": "5611a601804c8482562f4aaee767ddf0",
+    "semantic_hash": "5611a601804c8482562f4aaee767ddf0"
+  },
+  "components/ui/breadcrumb.tsx": {
+    "mtime": 1784122187.2491126,
+    "ast_hash": "c200fc41e9b214ebb6ccd19a300c42c5",
+    "semantic_hash": "c200fc41e9b214ebb6ccd19a300c42c5"
+  },
+  "components/ui/button.tsx": {
+    "mtime": 1784122187.2491126,
+    "ast_hash": "b59f5a3c54b63cf3ea4eb2523151f617",
+    "semantic_hash": "b59f5a3c54b63cf3ea4eb2523151f617"
+  },
+  "components/ui/calendar.tsx": {
+    "mtime": 1784122187.2491126,
+    "ast_hash": "1da7a387f28cdb11722da319c0295a6c",
+    "semantic_hash": "1da7a387f28cdb11722da319c0295a6c"
+  },
+  "components/ui/card.tsx": {
+    "mtime": 1784122187.2501128,
+    "ast_hash": "202402023747c80d975f48b906e6eb1b",
+    "semantic_hash": "202402023747c80d975f48b906e6eb1b"
+  },
+  "components/ui/carousel.tsx": {
+    "mtime": 1784122187.2501128,
+    "ast_hash": "63a7442a3088b58113c8a8cfc1defe26",
+    "semantic_hash": "63a7442a3088b58113c8a8cfc1defe26"
+  },
+  "components/ui/chart.tsx": {
+    "mtime": 1784122187.2501128,
+    "ast_hash": "29cfd7470f3197deccd58b2b4f00fbae",
+    "semantic_hash": "29cfd7470f3197deccd58b2b4f00fbae"
+  },
+  "components/ui/checkbox.tsx": {
+    "mtime": 1784122187.2501128,
+    "ast_hash": "cb12d2f3410761f7a678add95c90ac5d",
+    "semantic_hash": "cb12d2f3410761f7a678add95c90ac5d"
+  },
+  "components/ui/collapsible.tsx": {
+    "mtime": 1784122187.2501128,
+    "ast_hash": "934b00582dae08af749fb55469081de6",
+    "semantic_hash": "934b00582dae08af749fb55469081de6"
+  },
+  "components/ui/command.tsx": {
+    "mtime": 1784122187.2501128,
+    "ast_hash": "e911f182b4136a63c601c3fc48b2e9c7",
+    "semantic_hash": "e911f182b4136a63c601c3fc48b2e9c7"
+  },
+  "components/ui/context-menu.tsx": {
+    "mtime": 1784122187.2501128,
+    "ast_hash": "9b8e8efdf0456cd542e32d341b071cac",
+    "semantic_hash": "9b8e8efdf0456cd542e32d341b071cac"
+  },
+  "components/ui/dialog.tsx": {
+    "mtime": 1784122187.2511127,
+    "ast_hash": "fc3a9626ba52435552c93ac3a74374ec",
+    "semantic_hash": "fc3a9626ba52435552c93ac3a74374ec"
+  },
+  "components/ui/drawer.tsx": {
+    "mtime": 1784122187.2511127,
+    "ast_hash": "05e2b536fe11649e9b4c6e73678e32a6",
+    "semantic_hash": "05e2b536fe11649e9b4c6e73678e32a6"
+  },
+  "components/ui/dropdown-menu.tsx": {
+    "mtime": 1784122187.2511127,
+    "ast_hash": "f308eb98a2e21bf8bd1e30dbcb741dc0",
+    "semantic_hash": "f308eb98a2e21bf8bd1e30dbcb741dc0"
+  },
+  "components/ui/form.tsx": {
+    "mtime": 1784122187.2511127,
+    "ast_hash": "4bb820d59aad3ee5bc78097596298ace",
+    "semantic_hash": "4bb820d59aad3ee5bc78097596298ace"
+  },
+  "components/ui/hover-card.tsx": {
+    "mtime": 1784122187.2511127,
+    "ast_hash": "f77f80ed64ff8f3549e5d7e9d837e08e",
+    "semantic_hash": "f77f80ed64ff8f3549e5d7e9d837e08e"
+  },
+  "components/ui/input-otp.tsx": {
+    "mtime": 1784122187.2511127,
+    "ast_hash": "3fb5994635434d5168bee869689fc2aa",
+    "semantic_hash": "3fb5994635434d5168bee869689fc2aa"
+  },
+  "components/ui/input.tsx": {
+    "mtime": 1784122187.2521126,
+    "ast_hash": "b8279d768c2a1ce78a05a369a0502877",
+    "semantic_hash": "b8279d768c2a1ce78a05a369a0502877"
+  },
+  "components/ui/label.tsx": {
+    "mtime": 1784122187.2521126,
+    "ast_hash": "cd2b2255bbe519cb0865dfeaa6615797",
+    "semantic_hash": "cd2b2255bbe519cb0865dfeaa6615797"
+  },
+  "components/ui/menubar.tsx": {
+    "mtime": 1784122187.2521126,
+    "ast_hash": "163c3fa58a2b4ea2caa00166f4d862c7",
+    "semantic_hash": "163c3fa58a2b4ea2caa00166f4d862c7"
+  },
+  "components/ui/navigation-menu.tsx": {
+    "mtime": 1784122187.2521126,
+    "ast_hash": "77e94b0c299d10c3763d2755bf556916",
+    "semantic_hash": "77e94b0c299d10c3763d2755bf556916"
+  },
+  "components/ui/pagination.tsx": {
+    "mtime": 1784122187.2521126,
+    "ast_hash": "a3ced9f9b19826b467d788b1bf01746f",
+    "semantic_hash": "a3ced9f9b19826b467d788b1bf01746f"
+  },
+  "components/ui/popover.tsx": {
+    "mtime": 1784122187.2521126,
+    "ast_hash": "c056d22288a642b756b77c7691ad4532",
+    "semantic_hash": "c056d22288a642b756b77c7691ad4532"
+  },
+  "components/ui/progress.tsx": {
+    "mtime": 1784122187.2521126,
+    "ast_hash": "9a8b05beca19e008a562a10e489f5968",
+    "semantic_hash": "9a8b05beca19e008a562a10e489f5968"
+  },
+  "components/ui/radio-group.tsx": {
+    "mtime": 1784122187.2521126,
+    "ast_hash": "3773798b5b2f334a5db0dc9c8d06f1b8",
+    "semantic_hash": "3773798b5b2f334a5db0dc9c8d06f1b8"
+  },
+  "components/ui/resizable.tsx": {
+    "mtime": 1784122187.2531126,
+    "ast_hash": "ec681e92cbe705b5571ded11b5227a2a",
+    "semantic_hash": "ec681e92cbe705b5571ded11b5227a2a"
+  },
+  "components/ui/scroll-area.tsx": {
+    "mtime": 1784122187.2531126,
+    "ast_hash": "cfbc224001af0e6daba676de225a2a47",
+    "semantic_hash": "cfbc224001af0e6daba676de225a2a47"
+  },
+  "components/ui/select.tsx": {
+    "mtime": 1784122187.2531126,
+    "ast_hash": "25de64d0126624cbd8efa50cfb64bd21",
+    "semantic_hash": "25de64d0126624cbd8efa50cfb64bd21"
+  },
+  "components/ui/separator.tsx": {
+    "mtime": 1784122187.2531126,
+    "ast_hash": "ed1101f185e9dc801712593e3330a75d",
+    "semantic_hash": "ed1101f185e9dc801712593e3330a75d"
+  },
+  "components/ui/sheet.tsx": {
+    "mtime": 1784122187.2531126,
+    "ast_hash": "3660be09e2e40467a22fd46b354c1b50",
+    "semantic_hash": "3660be09e2e40467a22fd46b354c1b50"
+  },
+  "components/ui/sidebar.tsx": {
+    "mtime": 1784122187.2531126,
+    "ast_hash": "9eab1256b1ffe3f1336eebfd07b319c9",
+    "semantic_hash": "9eab1256b1ffe3f1336eebfd07b319c9"
+  },
+  "components/ui/skeleton.tsx": {
+    "mtime": 1784122187.2531126,
+    "ast_hash": "c55f76f4faa1d6e888dbc51d41eaa586",
+    "semantic_hash": "c55f76f4faa1d6e888dbc51d41eaa586"
+  },
+  "components/ui/slider.tsx": {
+    "mtime": 1784122187.2541127,
+    "ast_hash": "e3bf7b6116ddbdbe8c7b3597d07daee0",
+    "semantic_hash": "e3bf7b6116ddbdbe8c7b3597d07daee0"
+  },
+  "components/ui/sonner.tsx": {
+    "mtime": 1784122187.2541127,
+    "ast_hash": "88644703cc00886c56e0e3b7df0e21d8",
+    "semantic_hash": "88644703cc00886c56e0e3b7df0e21d8"
+  },
+  "components/ui/switch.tsx": {
+    "mtime": 1784122187.2541127,
+    "ast_hash": "eccd8c41c46e782eaaa1f8be0111e089",
+    "semantic_hash": "eccd8c41c46e782eaaa1f8be0111e089"
+  },
+  "components/ui/table.tsx": {
+    "mtime": 1784122187.2541127,
+    "ast_hash": "d0ff87c4734c23839337811378ad07df",
+    "semantic_hash": "d0ff87c4734c23839337811378ad07df"
+  },
+  "components/ui/tabs.tsx": {
+    "mtime": 1784122187.2541127,
+    "ast_hash": "26b15e1ffce0f831be4da95b8f8a43df",
+    "semantic_hash": "26b15e1ffce0f831be4da95b8f8a43df"
+  },
+  "components/ui/textarea.tsx": {
+    "mtime": 1784122187.2541127,
+    "ast_hash": "29ab470ee59e9da5070d4fba251bce81",
+    "semantic_hash": "29ab470ee59e9da5070d4fba251bce81"
+  },
+  "components/ui/toast.tsx": {
+    "mtime": 1784122187.2541127,
+    "ast_hash": "7c08b5cb6026058514672a4ebc53847e",
+    "semantic_hash": "7c08b5cb6026058514672a4ebc53847e"
+  },
+  "components/ui/toaster.tsx": {
+    "mtime": 1784122187.2541127,
+    "ast_hash": "1903846ab268620de6356ef667e3fa21",
+    "semantic_hash": "1903846ab268620de6356ef667e3fa21"
+  },
+  "components/ui/toggle-group.tsx": {
+    "mtime": 1784122187.2541127,
+    "ast_hash": "e82bf234e3877ad708ea3d1dba614def",
+    "semantic_hash": "e82bf234e3877ad708ea3d1dba614def"
+  },
+  "components/ui/toggle.tsx": {
+    "mtime": 1784122187.2551126,
+    "ast_hash": "ff7a7deebff23c3488e79ad72ee47e4b",
+    "semantic_hash": "ff7a7deebff23c3488e79ad72ee47e4b"
+  },
+  "components/ui/tooltip.tsx": {
+    "mtime": 1784122187.2551126,
+    "ast_hash": "d7e923341b9e91d77db45ba5f2fa0cf9",
+    "semantic_hash": "d7e923341b9e91d77db45ba5f2fa0cf9"
+  },
+  "components/ui/use-toast.ts": {
+    "mtime": 1784122187.2551126,
+    "ast_hash": "4f094014a1315ca1081cbdc7f78d55cc",
+    "semantic_hash": "4f094014a1315ca1081cbdc7f78d55cc"
+  },
+  "config/nav.ts": {
+    "mtime": 1784122187.2551126,
+    "ast_hash": "d88dd4f65bda12ef49ffe94d24316e08",
+    "semantic_hash": "d88dd4f65bda12ef49ffe94d24316e08"
+  },
+  "data/blog.json": {
+    "mtime": 1784122187.2551126,
+    "ast_hash": "b2b9e305a9eb06e008d1ff0912e5fd20",
+    "semantic_hash": "b2b9e305a9eb06e008d1ff0912e5fd20"
+  },
+  "embeddings.json": {
+    "mtime": 1784122187.2551126,
+    "ast_hash": "abeed3edfb401a5b8acb52144a574bf0",
+    "semantic_hash": "abeed3edfb401a5b8acb52144a574bf0"
+  },
+  "hooks/use-mobile.tsx": {
+    "mtime": 1784122187.2581127,
+    "ast_hash": "c0a0bdd4638c391a1dd06ac82074e60b",
+    "semantic_hash": "c0a0bdd4638c391a1dd06ac82074e60b"
+  },
+  "hooks/use-toast.ts": {
+    "mtime": 1784122187.2591126,
+    "ast_hash": "e706bc004c87e17db559a113637eddea",
+    "semantic_hash": "e706bc004c87e17db559a113637eddea"
+  },
+  "hooks/useSeoMeta.ts": {
+    "mtime": 1784122187.2591126,
+    "ast_hash": "b7d1ba6bee81f12e6320387279496415",
+    "semantic_hash": "b7d1ba6bee81f12e6320387279496415"
+  },
+  "lib/EmbeddingsLoader.ts": {
+    "mtime": 1784122187.2591126,
+    "ast_hash": "8d1477bb9ffe0442528ebec3a4c0f35f",
+    "semantic_hash": "8d1477bb9ffe0442528ebec3a4c0f35f"
+  },
+  "lib/inspector.ts": {
+    "mtime": 1784122187.2601125,
+    "ast_hash": "56e18a09f7e81c61950e90bd138392d8",
+    "semantic_hash": "56e18a09f7e81c61950e90bd138392d8"
+  },
+  "lib/manifest.ts": {
+    "mtime": 1784122187.2601125,
+    "ast_hash": "93f535a35a36617e6e746676c9a72559",
+    "semantic_hash": "93f535a35a36617e6e746676c9a72559"
+  },
+  "lib/routeNotifier.ts": {
+    "mtime": 1784122187.2601125,
+    "ast_hash": "0c32fb1bdfd55f165148b492a967722b",
+    "semantic_hash": "0c32fb1bdfd55f165148b492a967722b"
+  },
+  "lib/tailwindResolver.ts": {
+    "mtime": 1784122187.2601125,
+    "ast_hash": "5854e2537946189ed19a5b4124aa1319",
+    "semantic_hash": "5854e2537946189ed19a5b4124aa1319"
+  },
+  "lib/utils.ts": {
+    "mtime": 1784122187.2601125,
+    "ast_hash": "d9837f38cc05303254571985e3164050",
+    "semantic_hash": "d9837f38cc05303254571985e3164050"
+  },
+  "lib/virtualOverrides.ts": {
+    "mtime": 1784122187.2601125,
+    "ast_hash": "36a723a83352c5df7332291f4f07634d",
+    "semantic_hash": "36a723a83352c5df7332291f4f07634d"
+  },
+  "main.tsx": {
+    "mtime": 1784122187.2601125,
+    "ast_hash": "149470a6b8a9720edd7d84655f7807fd",
+    "semantic_hash": "149470a6b8a9720edd7d84655f7807fd"
+  },
+  "pages/AboutUs.tsx": {
+    "mtime": 1784122187.2611127,
+    "ast_hash": "5f3b808b3405736b6e2ba5a65b808074",
+    "semantic_hash": "5f3b808b3405736b6e2ba5a65b808074"
+  },
+  "pages/DentistAllenTx.tsx": {
+    "mtime": 1784122187.2611127,
+    "ast_hash": "ca2f11f270d0400efe590d190bcc0e06",
+    "semantic_hash": "ca2f11f270d0400efe590d190bcc0e06"
+  },
+  "pages/DentistGarlandTx.tsx": {
+    "mtime": 1784122187.2611127,
+    "ast_hash": "8c7eb75899e4e2dbcb8ab3e487540eef",
+    "semantic_hash": "8c7eb75899e4e2dbcb8ab3e487540eef"
+  },
+  "pages/DentistLucasTx.tsx": {
+    "mtime": 1784122187.2611127,
+    "ast_hash": "2ebd82026ab4c4a65ad9271fb4e97878",
+    "semantic_hash": "2ebd82026ab4c4a65ad9271fb4e97878"
+  },
+  "pages/DentistMurphyTx.tsx": {
+    "mtime": 1784122187.2621126,
+    "ast_hash": "3d39d60c62bf187fa26dc318702c0fe7",
+    "semantic_hash": "3d39d60c62bf187fa26dc318702c0fe7"
+  },
+  "pages/DentistParkerTx.tsx": {
+    "mtime": 1784122187.2621126,
+    "ast_hash": "5aadb00e3ad426df65bd210ec8f6f86f",
+    "semantic_hash": "5aadb00e3ad426df65bd210ec8f6f86f"
+  },
+  "pages/DentistPlanoTx.tsx": {
+    "mtime": 1784122187.2621126,
+    "ast_hash": "671ff41cccdd608f4ed0bf100455ac64",
+    "semantic_hash": "671ff41cccdd608f4ed0bf100455ac64"
+  },
+  "pages/DentistRichardsonTx.tsx": {
+    "mtime": 1784122187.2621126,
+    "ast_hash": "742d40ac09fc5372a4e18e8e1721511e",
+    "semantic_hash": "742d40ac09fc5372a4e18e8e1721511e"
+  },
+  "pages/DentistRowlettTx.tsx": {
+    "mtime": 1784122187.2621126,
+    "ast_hash": "85a0b134ca1f657dcc58caa49d1cbec5",
+    "semantic_hash": "85a0b134ca1f657dcc58caa49d1cbec5"
+  },
+  "pages/DentistSachseTx.tsx": {
+    "mtime": 1784122187.2621126,
+    "ast_hash": "14b28aab31ff1d9b15dcae51b4fcd953",
+    "semantic_hash": "14b28aab31ff1d9b15dcae51b4fcd953"
+  },
+  "pages/DentistWylieTx.tsx": {
+    "mtime": 1784122187.2631125,
+    "ast_hash": "f27ae39b1127f6e77f4ea986840466fb",
+    "semantic_hash": "f27ae39b1127f6e77f4ea986840466fb"
+  },
+  "pages/ForPatients.tsx": {
+    "mtime": 1784122187.2631125,
+    "ast_hash": "c122ad9542a4dc3b0be25c369f966292",
+    "semantic_hash": "c122ad9542a4dc3b0be25c369f966292"
+  },
+  "pages/Index.tsx": {
+    "mtime": 1784122187.2631125,
+    "ast_hash": "3978cbd6914ba5e804935b8656e282c2",
+    "semantic_hash": "3978cbd6914ba5e804935b8656e282c2"
+  },
+  "pages/Location.tsx": {
+    "mtime": 1784122187.2631125,
+    "ast_hash": "3f33b2b61212f2f9999273cf15f50736",
+    "semantic_hash": "3f33b2b61212f2f9999273cf15f50736"
+  },
+  "pages/NotFound.tsx": {
+    "mtime": 1784122187.2631125,
+    "ast_hash": "233617e24ded7876ea905f003f0f2889",
+    "semantic_hash": "233617e24ded7876ea905f003f0f2889"
+  },
+  "pages/OurServices.tsx": {
+    "mtime": 1784122187.2631125,
+    "ast_hash": "f0ebeae82f49a31cec19cd0201f6b142",
+    "semantic_hash": "f0ebeae82f49a31cec19cd0201f6b142"
+  },
+  "pages/RequestAnAppointment.tsx": {
+    "mtime": 1784122187.2641127,
+    "ast_hash": "3372f596a3ee65cc763fbc1621784a10",
+    "semantic_hash": "3372f596a3ee65cc763fbc1621784a10"
+  },
+  "pages/ServiceLocations.tsx": {
+    "mtime": 1784122187.2641127,
+    "ast_hash": "75030d9d54600945c83e5d87d99d7c28",
+    "semantic_hash": "75030d9d54600945c83e5d87d99d7c28"
+  },
+  "pages/SmileGallery.tsx": {
+    "mtime": 1784122187.2641127,
+    "ast_hash": "5e18827e072f634b21feee58d51b09f0",
+    "semantic_hash": "5e18827e072f634b21feee58d51b09f0"
+  },
+  "tailwind.config.lov.json": {
+    "mtime": 1784122187.2641127,
+    "ast_hash": "bba3e10d89dbee0a81da7e5106a5c2cd",
+    "semantic_hash": "bba3e10d89dbee0a81da7e5106a5c2cd"
+  },
+  "vite-env.d.ts": {
+    "mtime": 1784122187.2651126,
+    "ast_hash": "0352474ba2918efe13895edbc3780d94",
+    "semantic_hash": "0352474ba2918efe13895edbc3780d94"
+  }
+}
