@@ -1,4 +1,5 @@
 import { Facebook, MapPin, Phone } from "lucide-react";
+import { PHONE_DISPLAY, PHONE_TEL } from "@/config/contact";
 
 const Footer = () => {
   return (
@@ -49,11 +50,11 @@ const Footer = () => {
                 </span>
               </a>
               <a
-                href="tel:+19723673001"
+                href={PHONE_TEL}
                 className="flex items-center gap-3 hover:text-[hsl(184_82%_40%)] transition-colors"
               >
                 <Phone className="h-5 w-5 flex-shrink-0" />
-                <span>(972) 367-3001</span>
+                <span>{PHONE_DISPLAY}</span>
               </a>
             </div>
           </div>

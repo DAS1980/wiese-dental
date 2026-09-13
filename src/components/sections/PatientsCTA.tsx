@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, CalendarDays } from "lucide-react";
+import { PHONE_TEL } from "@/config/contact";
 
 const PatientsCTA = () => {
   return (
@@ -48,7 +49,7 @@ const PatientsCTA = () => {
               className="bg-white hover:bg-white/90 px-8 py-6 text-base font-semibold shadow-lg"
               style={{ color: "hsl(184 82% 40%)" }}
             >
-              <a href="tel:+19724147195">
+              <a href={PHONE_TEL}>
                 <Phone className="mr-2 h-5 w-5" />
                 Call the Office
               </a>

@@ -1,3 +1,5 @@
+import { PHONE_DISPLAY, PHONE_TEL } from "@/config/contact";
+
 const AppointmentHero = () => {
   return (
     <section
@@ -32,11 +34,11 @@ const AppointmentHero = () => {
           <p className="text-base md:text-lg leading-relaxed" style={{ color: "rgba(255,255,255,0.88)" }}>
             We'd love to welcome you to our practice. Fill out the form below and our team will reach out to confirm your appointment time. Prefer to call? Reach us at{" "}
             <a
-              href="tel:+19723673001"
+              href={PHONE_TEL}
               className="underline font-semibold hover:opacity-80 transition-opacity"
               style={{ color: "white" }}
             >
-              (972) 367-3001
+              {PHONE_DISPLAY}
             </a>
             .
           </p>

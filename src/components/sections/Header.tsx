@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, MapPin, Phone } from "lucide-react";
+import { PHONE_DISPLAY, PHONE_TEL } from "@/config/contact";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -48,11 +49,11 @@ const Header = () => {
                 <span>6810 Murphy Rd #100, Sachse, TX 75048</span>
               </a>
               <a
-                href="tel:+19723673001"
+                href={PHONE_TEL}
                 className="flex items-center gap-2 hover:opacity-90 transition-opacity"
               >
                 <Phone className="h-4 w-4" />
-                <span>(972) 367-3001</span>
+                <span>{PHONE_DISPLAY}</span>
               </a>
             </div>
           </div>

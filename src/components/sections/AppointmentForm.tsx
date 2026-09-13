@@ -11,6 +11,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { CalendarDays, Phone, Clock, MapPin } from "lucide-react";
+import { PHONE_DISPLAY, PHONE_TEL } from "@/config/contact";
 
 // Unique UUID for the appointment request form
 const FORM_UUID = "a7c42e18-3b5d-4f9a-8c6e-1d2f3e4a5b6c";
@@ -81,10 +82,10 @@ const AppointmentForm = () => {
                 <div>
                   <p className="font-semibold text-foreground text-sm">Call Us Directly</p>
                   <a
-                    href="tel:+19723673001"
+                    href={PHONE_TEL}
                     className="text-[hsl(184_82%_40%)] hover:underline font-medium"
                   >
-                    (972) 367-3001
+                    {PHONE_DISPLAY}
                   </a>
                 </div>
               </div>
@@ -142,8 +143,8 @@ const AppointmentForm = () => {
                 <h4 className="text-2xl font-bold text-foreground mb-3">Request Received!</h4>
                 <p className="text-muted-foreground max-w-md mx-auto">
                   Thank you for requesting an appointment at Wiese Dental. Our team will reach out within one business day to confirm your visit. If you need immediate assistance, please call us at{" "}
-                  <a href="tel:+19723673001" className="text-[hsl(184_82%_40%)] font-semibold hover:underline">
-                    (972) 367-3001
+                  <a href={PHONE_TEL} className="text-[hsl(184_82%_40%)] font-semibold hover:underline">
+                    {PHONE_DISPLAY}
                   </a>.
                 </p>
                 <Button
@@ -341,8 +342,8 @@ const AppointmentForm = () => {
                 {status === "error" && (
                   <p className="text-destructive text-sm text-center font-medium">
                     Something went wrong. Please try again or call us at{" "}
-                    <a href="tel:+19723673001" className="underline font-semibold">
-                      (972) 367-3001
+                    <a href={PHONE_TEL} className="underline font-semibold">
+                      {PHONE_DISPLAY}
                     </a>.
                   </p>
                 )}

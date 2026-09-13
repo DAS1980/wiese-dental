@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import { Stethoscope, Droplets, Wrench, Crown, Scissors, Smile, Shield, Layers, Sparkles, Star, AlignCenter, Heart, Zap, Activity } from "lucide-react";
+import { PHONE_DISPLAY, PHONE_TEL } from "@/config/contact";
 
 // ─────────────────────────────────────────────
 // Data types
@@ -345,7 +346,7 @@ const OurServicesContent = () => {
               variant="outline"
               className="border-2 border-white text-white bg-transparent hover:bg-white/10 px-8 font-semibold"
             >
-              <a href="tel:+19723673001">(972) 367-3001</a>
+              <a href={PHONE_TEL}>{PHONE_DISPLAY}</a>
             </Button>
           </div>
         </div>

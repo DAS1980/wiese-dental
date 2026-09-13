@@ -4,6 +4,7 @@ import Contact from "@/components/sections/Contact";
 import Footer from "@/components/sections/Footer";
 import { MapPin, Phone, Clock, CheckCircle, Car, Home, Star, Navigation } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { PHONE_DISPLAY, PHONE_TEL } from "@/config/contact";
 
 // ─── Data ────────────────────────────────────────────────────────────────────
 
@@ -182,10 +183,10 @@ const DentistRichardsonTxPage = React.forwardRef<HTMLDivElement>((props, ref) =>
                   <div>
                     <p className="font-semibold text-foreground">Phone</p>
                     <a
-                      href="tel:+19723673001"
+                      href={PHONE_TEL}
                       className="text-foreground/80 hover:text-[hsl(184_82%_40%)] transition-colors"
                     >
-                      (972) 367-3001
+                      {PHONE_DISPLAY}
                     </a>
                   </div>
                 </div>

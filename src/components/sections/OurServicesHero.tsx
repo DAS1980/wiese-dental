@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
+import { PHONE_DISPLAY, PHONE_TEL } from "@/config/contact";
 
 const OurServicesHero = () => {
   return (
@@ -55,9 +56,9 @@ const OurServicesHero = () => {
               variant="outline"
               className="border-2 border-white text-white bg-transparent hover:bg-white/10 px-8 py-6 text-base font-semibold"
             >
-              <a href="tel:+19723673001">
+              <a href={PHONE_TEL}>
                 <Phone className="mr-2 h-5 w-5" />
-                (972) 367-3001
+                {PHONE_DISPLAY}
               </a>
             </Button>
           </div>
