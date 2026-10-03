@@ -128,6 +128,17 @@ function loadManifest(): PagesManifest {
 }
 
 /**
+ * Build a page's absolute URL using the production convention:
+ * home -> `${baseUrl}/`, other pages -> `${baseUrl}/${slug}/`.
+ * Returns '' when no domain is configured.
+ */
+function getPageUrl(baseUrl: string, page: ManifestPage): string {
+  if (!baseUrl) return '';
+  const slug = page.slug.replace(/^\/+|\/+$/g, '');
+  return page.isHome || !slug ? `${baseUrl}/` : `${baseUrl}/${slug}/`;
+}
+
+/**
  * Generate JSON-LD structured data script
  */
 function generateStructuredData(
@@ -147,7 +158,7 @@ function generateStructuredData(
     // Generate basic structured data based on type
     // Only include URL fields if we have a real domain
     const baseUrl = manifest.site.domain;
-    const pageUrl = baseUrl ? (page.isHome ? baseUrl : `${baseUrl}/${page.slug}`) : undefined;
+    const pageUrl = getPageUrl(baseUrl, page) || undefined;
     
     switch (page.seo.structuredDataType) {
       case 'WebSite':
@@ -155,7 +166,7 @@ function generateStructuredData(
           '@context': 'https://schema.org',
           '@type': 'WebSite',
           name: manifest.site.name,
-          ...(baseUrl && { url: baseUrl }),
+          ...(baseUrl && { url: `${baseUrl}/` }),
         };
         break;
       case 'Organization':
@@ -163,7 +174,7 @@ function generateStructuredData(
           '@context': 'https://schema.org',
           '@type': 'Organization',
           name: manifest.site.name,
-          ...(baseUrl && { url: baseUrl }),
+          ...(baseUrl && { url: `${baseUrl}/` }),
         };
         break;
       case 'LocalBusiness':
@@ -171,7 +182,7 @@ function generateStructuredData(
           '@context': 'https://schema.org',
           '@type': 'LocalBusiness',
           name: manifest.site.name,
-          ...(baseUrl && { url: baseUrl }),
+          ...(baseUrl && { url: `${baseUrl}/` }),
         };
         break;
       case 'FAQPage':
@@ -204,7 +215,7 @@ function generateHeadContent(
   const seo = page.seo;
   const site = manifest.site;
   const baseUrl = site.domain || '';
-  const pageUrl = page.isHome ? baseUrl : `${baseUrl}/${page.slug}`;
+  const pageUrl = getPageUrl(baseUrl, page);
   
   const parts: string[] = [];
   
@@ -405,7 +416,7 @@ function sitemapPlugin(manifest: PagesManifest): Plugin {
       const urls = manifest.pages
         .filter(p => !p.seo.noindex)
         .map(page => {
-          const loc = page.isHome ? baseUrl : `${baseUrl}/${page.slug}`;
+          const loc = getPageUrl(baseUrl, page);
           const priority = page.isHome ? '1.0' : '0.8';
           return `  <url>
     <loc>${loc}</loc>
